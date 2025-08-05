@@ -3,7 +3,6 @@ import { NInput, NFormItem } from 'naive-ui'
 import { useField } from 'vee-validate'
 import { computed } from 'vue'
 
-defineOptions({ inheritAttrs: false })
 const model = defineModel<string>()
 const props = defineProps<{
   required?: boolean
